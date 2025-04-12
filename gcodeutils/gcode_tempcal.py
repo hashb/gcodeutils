@@ -10,7 +10,7 @@ import sys
 
 __author__ = 'Olivier Jolly <olivier@pcedev.com>'
 
-from gcoder import GCode  # pylint: disable=relative-import
+from gcodeutils.gcoder import GCode
 
 
 class GCodeTempGradient(object):  # pylint: disable=too-many-instance-attributes
